@@ -1,14 +1,15 @@
 // Portfolio content — edit these values to make the page yours.
 import type { LucideIcon } from "lucide-react";
-import { AtSign, Briefcase, GitBranch, Mail } from "lucide-react";
+import { Briefcase, GitBranch, Mail } from "lucide-react";
 
 export const profile = {
-  name: "Khryz",
-  role: "Creative Front-End Developer",
+  name: "Khryz Navarro",
+  firstName: "Khryz",
+  role: "Full-Stack & Mobile Developer",
   tagline:
-    "I'm Khryz — a creative front-end developer who turns rough ideas into fast, expressive interfaces. React, TypeScript and WebGL are my tools of choice.",
-  email: "hello@khryz.dev",
-  availability: "Available for new projects",
+    "I'm Khryz Navarro — a 4th-year Information Systems student who learns by building: full-stack web apps, mobile projects, and the occasional shader. Currently open to internships and freelance work.",
+  email: "khryznavarro@gmail.com",
+  availability: "Open to internships & freelance",
 };
 
 export const navLinks = [
@@ -21,9 +22,12 @@ export const navLinks = [
 export type Social = { label: string; href: string; icon: LucideIcon };
 
 export const socials: Social[] = [
-  { label: "GitHub", href: "https://github.com/khryz", icon: GitBranch },
-  { label: "LinkedIn", href: "https://linkedin.com/in/khryz", icon: Briefcase },
-  { label: "X", href: "https://x.com/khryz", icon: AtSign },
+  { label: "GitHub", href: "https://github.com/Khryz-Navarro", icon: GitBranch },
+  {
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/khryz-navarro-5abb4b398/",
+    icon: Briefcase,
+  },
   { label: "Email", href: `mailto:${profile.email}`, icon: Mail },
 ];
 
@@ -40,83 +44,83 @@ export type Project = {
 export const projects: Project[] = [
   {
     index: "01",
-    title: "Nebula Analytics",
-    year: "2025",
+    title: "Capstone System",
+    year: "2026",
     description:
-      "Real-time analytics dashboard streaming live metrics into interactive WebGL visualizations for a fintech scale-up.",
-    tags: ["React", "TypeScript", "D3.js", "WebSockets"],
-    link: "#",
+      "My capstone project — a full-stack TypeScript system designed, built and documented end-to-end as the centerpiece of my IS degree.",
+    tags: ["TypeScript", "Full-Stack", "Web App"],
+    link: "https://github.com/Khryz-Navarro/Capstone-System",
     thumb:
       "radial-gradient(120% 130% at 15% 10%, rgba(52,211,153,0.35), transparent 52%), radial-gradient(90% 110% at 85% 90%, rgba(34,211,238,0.28), transparent 55%), #07120d",
   },
   {
     index: "02",
-    title: "Aurora Commerce",
-    year: "2024",
+    title: "Apartmate",
+    year: "2025",
     description:
-      "Headless storefront with sub-second page loads, 3D product previews and a conversion-obsessed checkout flow.",
-    tags: ["Next.js", "Stripe", "Tailwind CSS", "Vercel"],
-    link: "#",
+      "An apartment management system built with Laravel Blade — listings, tenants and day-to-day operations in one place.",
+    tags: ["PHP", "Laravel", "Blade", "MySQL"],
+    link: "https://github.com/Khryz-Navarro/apartmate",
     thumb:
       "radial-gradient(120% 130% at 85% 15%, rgba(167,139,250,0.32), transparent 52%), radial-gradient(90% 110% at 15% 90%, rgba(52,211,153,0.26), transparent 55%), #0d0a14",
   },
   {
     index: "03",
-    title: "Waveform Studio",
-    year: "2024",
+    title: "SIMS",
+    year: "2025",
     description:
-      "Browser-native audio workstation: multi-track editing, effects chains and MIDI — no install required.",
-    tags: ["React", "Web Audio API", "Canvas", "Zustand"],
-    link: "#",
+      "A student information management system — my take on digitizing school records with a clean, usable interface.",
+    tags: ["JavaScript", "HTML", "CSS"],
+    link: "https://github.com/Khryz-Navarro/sims",
     thumb:
       "radial-gradient(120% 130% at 20% 85%, rgba(45,212,191,0.3), transparent 52%), radial-gradient(90% 110% at 80% 15%, rgba(96,165,250,0.26), transparent 55%), #081014",
   },
   {
     index: "04",
-    title: "Shader Playground",
+    title: "Calculator Java",
     year: "2023",
     description:
-      "A live GLSL playground and component gallery where animated backgrounds — like the one behind this page — are prototyped.",
-    tags: ["Three.js", "GLSL", "React", "MDX"],
-    link: "#",
+      "A desktop calculator with a Java GUI — my first taste of event-driven programming and building something people can click.",
+    tags: ["Java", "GUI", "OOP"],
+    link: "https://github.com/Khryz-Navarro/Calculator-Java",
     thumb:
       "radial-gradient(120% 130% at 80% 80%, rgba(251,191,36,0.22), transparent 50%), radial-gradient(100% 120% at 15% 15%, rgba(52,211,153,0.3), transparent 55%), #121006",
   },
 ];
 
 export const stats = [
-  { value: "05+", label: "Years of experience" },
-  { value: "30+", label: "Projects shipped" },
-  { value: "15+", label: "Happy clients" },
+  { value: "4th", label: "Year — BS Information Systems" },
+  { value: "18+", label: "GitHub repositories" },
+  { value: "10+", label: "Projects built" },
 ];
 
 export const stack = [
-  { label: "Core", items: ["React", "TypeScript", "Next.js", "Vite"] },
-  { label: "Motion & 3D", items: ["Three.js", "WebGL / GLSL", "Framer Motion"] },
-  { label: "Styling", items: ["Tailwind CSS", "CSS Architecture", "shadcn/ui"] },
-  { label: "Backend & Tools", items: ["Node.js", "Appwrite", "PostgreSQL", "Git", "Figma"] },
+  { label: "Languages", items: ["JavaScript", "TypeScript", "PHP", "Java"] },
+  { label: "Frontend", items: ["React", "Tailwind CSS", "Blade", "HTML / CSS"] },
+  { label: "Backend", items: ["Node.js", "Laravel", "MySQL"] },
+  { label: "Tools", items: ["Git", "GitHub", "Vite", "Figma"] },
 ];
 
 export const experience = [
   {
-    period: "2023 — Present",
-    role: "Senior Front-End Developer",
-    org: "Freelance",
+    period: "2025 — Present",
+    role: "Capstone Developer",
+    org: "BS Information Systems",
     summary:
-      "Designing and shipping immersive marketing sites and product interfaces for startups — WebGL hero scenes, design systems and performance budgets included.",
+      "Designing and building my capstone system end-to-end — from requirements and database design to a working TypeScript web app.",
   },
   {
-    period: "2021 — 2023",
-    role: "Front-End Developer",
-    org: "PixelWorks Studio",
+    period: "2024 — 2025",
+    role: "Full-Stack Project Work",
+    org: "Coursework & Side Projects",
     summary:
-      "Built component libraries and interactive campaigns for clients in fintech and e-commerce; led the studio's move to React + TypeScript.",
+      "Shipped Laravel and JavaScript systems for classes and personal projects — apartment management, student records and more.",
   },
   {
-    period: "2019 — 2021",
-    role: "Junior Web Developer",
-    org: "Northwind Agency",
+    period: "2023 — 2024",
+    role: "Programming Foundations",
+    org: "First-Year Studies",
     summary:
-      "Cut my teeth on responsive builds, accessibility fixes and WordPress-to-Jamstack migrations.",
+      "Java, JavaScript and the fundamentals: object-oriented programming, data structures, and my first GUI applications.",
   },
 ];

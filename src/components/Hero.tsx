@@ -34,7 +34,7 @@ export function Hero() {
         </p>
 
         <h1 className="mt-8 max-w-4xl font-display text-5xl font-bold leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-7xl">
-          Crafting{" "}
+          Student developer crafting{" "}
           <span className="bg-gradient-to-r from-emerald-300 via-emerald-400 to-teal-300 bg-clip-text text-transparent">
             immersive
           </span>{" "}

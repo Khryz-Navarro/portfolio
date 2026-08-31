@@ -19,9 +19,9 @@ export function Contact() {
               .
             </h2>
             <p className="mx-auto mt-6 max-w-lg leading-relaxed text-white/60">
-              Have a project in mind, a role to fill, or just want to talk
-              shaders? My inbox is always open — I'll get back to you within a
-              day.
+              Looking for an intern, have a project idea, or want to
+              collaborate on something for school or beyond? My inbox is always
+              open — I'll get back to you within a day.
             </p>
 
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4">

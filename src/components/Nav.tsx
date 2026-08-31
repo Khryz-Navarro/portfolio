@@ -26,7 +26,7 @@ export function Nav() {
           href="#top"
           className="font-display text-lg font-semibold tracking-tight text-white"
         >
-          {profile.name}
+          {profile.firstName}
           <span className="text-emerald-400">.</span>
         </a>
 

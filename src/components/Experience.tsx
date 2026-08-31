@@ -10,7 +10,7 @@ export function Experience() {
             Experience
           </p>
           <h2 className="mt-4 font-display text-4xl font-semibold tracking-tight text-white sm:text-5xl">
-            Where I've been.
+            The journey so far.
           </h2>
         </Reveal>
 

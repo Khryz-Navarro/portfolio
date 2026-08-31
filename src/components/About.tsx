@@ -10,18 +10,19 @@ export function About() {
             About
           </p>
           <h2 className="mt-4 font-display text-4xl font-semibold tracking-tight text-white sm:text-5xl">
-            Design-minded, code-driven.
+            Learning by building.
           </h2>
           <p className="mt-6 leading-relaxed text-white/60">
-            I'm a front-end developer who cares about the last five percent — the
-            easing curve, the loading state, the way a page feels at 120 frames
-            per second. For the past five years I've helped studios and startups
-            turn rough ideas into polished, production-ready interfaces.
+            I'm a 4th-year Information Systems student and a full-stack &amp;
+            mobile developer in training. I learn best by shipping — most of my
+            growth has come from turning class requirements and side ideas into
+            real, working software.
           </p>
           <p className="mt-4 leading-relaxed text-white/60">
-            My happy place is the overlap between design and engineering:
-            translating a brand into motion, shaders and interaction without
-            sacrificing performance or accessibility.
+            Right now I'm deep into my capstone, sharpening my React and
+            TypeScript, and looking for internship opportunities where I can
+            contribute, learn from experienced engineers, and build things
+            people actually use.
           </p>
         </Reveal>
 
