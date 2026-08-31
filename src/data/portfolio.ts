@@ -1,6 +1,6 @@
 // Portfolio content — edit these values to make the page yours.
 import type { LucideIcon } from "lucide-react";
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { AtSign, Briefcase, GitBranch, Mail } from "lucide-react";
 
 export const profile = {
   name: "Khryz",
@@ -21,9 +21,9 @@ export const navLinks = [
 export type Social = { label: string; href: string; icon: LucideIcon };
 
 export const socials: Social[] = [
-  { label: "GitHub", href: "https://github.com/khryz", icon: Github },
-  { label: "LinkedIn", href: "https://linkedin.com/in/khryz", icon: Linkedin },
-  { label: "X", href: "https://x.com/khryz", icon: Twitter },
+  { label: "GitHub", href: "https://github.com/khryz", icon: GitBranch },
+  { label: "LinkedIn", href: "https://linkedin.com/in/khryz", icon: Briefcase },
+  { label: "X", href: "https://x.com/khryz", icon: AtSign },
   { label: "Email", href: `mailto:${profile.email}`, icon: Mail },
 ];
 
