@@ -7,7 +7,7 @@ export const profile = {
   firstName: "Khryz",
   role: "Full-Stack & Mobile Developer",
   tagline:
-    "I'm Khryz Navarro — a 4th-year Information Systems student who learns by building: full-stack web apps, mobile projects, and the occasional shader. Currently open to internships and freelance work.",
+    "I'm Khryz Navarro a 4th-year Information Systems student who learns by building: full-stack web apps, mobile projects, and the occasional shader. Currently open to internships and freelance work.",
   email: "khryznavarro@gmail.com",
   availability: "Open to internships & freelance",
 };
