@@ -33,12 +33,15 @@ export function Hero() {
           {profile.availability}
         </p>
 
-        <h1 className="mt-8 max-w-4xl font-display text-5xl font-bold leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-7xl">
-          Student developer crafting{" "}
+        <h1 className="mt-8 max-w-4xl font-display text-5xl font-bold leading-[1.05] tracking-tight text-white sm:text-6xl">
+          Student developer crafting
+          <br className="hidden md:block" />{" "}
           <span className="bg-gradient-to-r from-emerald-300 via-emerald-400 to-teal-300 bg-clip-text text-transparent">
             immersive
           </span>{" "}
-          experiences for the modern web.
+          experiences
+          <br className="hidden md:block" />
+          {" "}for the modern web.
         </h1>
 
         <p className="mt-6 max-w-xl text-base leading-relaxed text-white/60 sm:text-lg">

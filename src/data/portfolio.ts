@@ -89,7 +89,7 @@ export const projects: Project[] = [
 ];
 
 export const stats = [
-  { value: "4th", label: "Year — BS Information Systems" },
+  { value: "4th", label: "Year Bachelor of Science in Information Systems" },
   { value: "18+", label: "GitHub repositories" },
   { value: "10+", label: "Projects built" },
 ];
